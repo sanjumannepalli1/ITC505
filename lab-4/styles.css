@@ -255,5 +255,15 @@ page[size="A4"] {
   padding-left: 0.5cm;
   list-style-type: disc;
 }
+
+.footer {
+  display: flex;
+  margin: 50px auto;
+  height:auto;
+  font-size: 18px;
+  font-weight: bold;
+  justify-content: center;
+  text-transform: uppercase;
+}
 /*End Layout*/
 
