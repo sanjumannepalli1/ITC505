@@ -265,5 +265,9 @@ page[size="A4"] {
   justify-content: center;
   text-transform: uppercase;
 }
+
+.addendum{
+  justify-content: center;
+}
 /*End Layout*/
 
