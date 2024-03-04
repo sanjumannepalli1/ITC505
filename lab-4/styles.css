@@ -1,15 +1,13 @@
-/* Fonts */
 
-/* Family */
 h1 { 
   font-family: 'Julius Sans One', sans-serif;
 }
 
-h2 { /* Contact, Skills, Education, About me, Work Experience */
+h2 { 
   font-family: 'Archivo Narrow', sans-serif;
 }
 
-h3 { /* Accountant */
+h3 { 
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -30,9 +28,6 @@ h3 { /* Accountant */
   text-align: justify;
 }
 
-/* End Family */
-
-/* Colors */
 h1 { 
   color: #111; 
 }
@@ -47,9 +42,7 @@ h1 {
   color: white;
 }
 
-/* End Colors */
 
-/* Sizes */
 h1 { 
   font-weight: 300; 
   font-size: 1cm;
@@ -98,7 +91,7 @@ p {
   margin-top: 0.05cm;
   margin-bottom: 0.05cm;
 }
-/* End Sizes */
+
 
 .bolded {
   font-weight: bold;
@@ -107,9 +100,7 @@ p {
 .white {
   color: white;
 }
-/* End Fonts */
 
-/* Layout */
 body {
   background: rgb(204,204,204); 
   width: 21cm;
@@ -117,7 +108,7 @@ body {
   margin: 0 auto;
 }
 
-/* Printing */
+
 page {
   background: white;
   display: block;
@@ -137,7 +128,7 @@ page[size="A4"] {
    border: none;
    border-collapse: collapse;
 }
-/* End Printing */
+
 
 .container {
   display: flex;
@@ -216,7 +207,7 @@ page[size="A4"] {
   content: '';
   position: absolute;
   top: 0.1cm;
-  bottom: -0.2cm; /* change this after border removal */
+  bottom: -0.2cm; 
   left: 0.05cm;
 }
 
@@ -265,9 +256,3 @@ page[size="A4"] {
   justify-content: center;
   text-transform: uppercase;
 }
-
-.addendum{
-  justify-content: center;
-}
-/*End Layout*/
-
