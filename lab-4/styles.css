@@ -189,13 +189,9 @@ h1 {
     justify-content: space-between;
   }
 
-  @media print {
-    .container {
-      page-break-inside: avoid;
-    }
-  }
   
-  .bottomLineSeparator {
+
+    .bottomLineSeparator {
     border-bottom: 0.05cm solid white;
   }
 
