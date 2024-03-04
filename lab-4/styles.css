@@ -1,7 +1,5 @@
-/* Fonts */
-
-/* Family */
-h1 { 
+  
+  h1 { 
     font-family: 'Julius Sans One', sans-serif;
   }
   
@@ -9,7 +7,7 @@ h1 {
     font-family: 'Archivo Narrow', sans-serif;
   }
   
-  h3 { /* Accountant */
+  h3 { /* Student */
     font-family: 'Open Sans', sans-serif;
   }
   
@@ -29,10 +27,10 @@ h1 {
     font-family: 'Source Sans Pro', sans-serif;
     
   }
+
+
   
-  /* End Family */
   
-  /* Colors */
   h1 { 
     color: #111; 
   }
@@ -47,7 +45,7 @@ h1 {
     color: white;
   }
   
-  /* End Colors */
+
   
   /* Sizes */
   h1 { 
@@ -189,7 +187,7 @@ h1 {
     justify-content: space-between;
   }
 
-  
+
 
     .bottomLineSeparator {
     border-bottom: 0.05cm solid white;
