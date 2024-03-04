@@ -262,6 +262,17 @@
     padding-left: 0.5cm;
     list-style-type: disc;
   }
+
+  /* Add page break before specific sections */
+.section-break {
+  page-break-before: always;
+}
+
+/* Add page break after specific elements */
+.element-break {
+  page-break-after: always;
+}
+
   /*End Layout*/
   
   
