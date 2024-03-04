@@ -186,14 +186,8 @@ h1 {
   .bottomLineSeparator {
     border-bottom: 0.05cm solid white;
   }
-  
-  .yearsOfExperience {
-    width: 1.6cm;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-  
+
+
   .alignleft {
     text-align: left !important;
     width: 1cm;
