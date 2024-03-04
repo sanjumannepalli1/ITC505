@@ -188,6 +188,12 @@ h1 {
     flex-direction: row;
     justify-content: space-between;
   }
+
+  @media print {
+    .container {
+      page-break-inside: avoid;
+    }
+  }
   
   .bottomLineSeparator {
     border-bottom: 0.05cm solid white;
