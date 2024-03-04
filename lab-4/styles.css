@@ -118,7 +118,7 @@
   /* Printing */
   page {
     background: white;
-    display: block;
+    
     margin: 0 auto;
     margin-bottom: 0.5cm;
   }
