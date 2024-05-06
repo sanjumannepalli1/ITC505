@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Addendum Page</title>
+    <!-- Include necessary CSS and JavaScript files -->
+    <script src="raphael-min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:200,400,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <!-- Content specific to the addendum page -->
+    <h1>Addendum</h1>
+    <p>Process and Elemenst What I have used</p>
+    <ol>
+        <li>
+            volume, music, isometric: These are boolean variables used to control certain features like volume, music playback, and isometric view.
+        </li>
+        <li>
+            $drone, $song: These are jQuery objects representing elements with IDs drone and song respectively. They are likely used for controlling audio playback.
+        </li>
+        <li>
+            songEvent: This variable is used to store the timeout event for playing the song.
+        </li>
+        <li>
+            songIsPlaying: This boolean variable tracks whether the song is currently playing.
+        </li>
+        <li>
+            square: This function defines an object representing a square shape and its properties and methods.
+        </li>
+        <li>
+            lightsOut: This function initializes and controls the Lights Out game, including grid generation, toggling squares, checking for a win condition, and resetting the game.
+        </li>
+        <li>
+            startMusic: This function initializes and controls the playback of background music, with optional intro music.
+        </li>
+        <li>
+            setSongTimeout: This function sets a timeout for playing the background song.
+
+        </li>
+        <li>
+            stopMusic: This function stops the background music playback.
+        </li>
+        <li>
+            Also Added event listeners to the various elements in document and execute functions when clicked. 
+        </li>
+        <li>
+            Raphael: This is a library for creating vector graphics using JavaScript. This helped me to draw and manipulate shapes on an SVG canvas.
+        </li>
+        <li>
+            These are functions provided by external libraries like jQuery ($(document).ready(), $(document).on()) and JavaScript (setTimeout(), clearTimeout(), Math.floor(), Math.random()).
+        </li>
+        <li>
+            These are functions and properties associated with the objects created in the code, like publicSetHeight, toggleSquare, and many more.
+        </li>
+        <li>
+            DOM Manupulation methods are used to manipulate the Document Object Model (DOM), such as showing/hiding elements, changing CSS classes, updating HTML content.
+        </li>
+        <li>
+            console.log(): This method is used for debugging purposes, printing messages to the browser console.
+        </li>
+        <li>
+            The challenges I faced are while adding background music it should add to the whole game function and toogle soudn whenever we click squares. So only i applied sound to toggling function.
+        </li>
+        <li>
+            For uniqueness, I have used color and opacity in js script where unit color and strke color define square color and Off opacity and on opacity will 
+            will determin the opacity of square when its active and inactive.
+        </li>
+        <li>
+            And Also the title animation enhanced with time with fade-out and fade-in for visual enhancements.
+        </li>
+        <li>
+            The reset , music, sound symbols are also handled for extra embedded elements.
+        </li>
+        <li>
+            I have also added timer functionality and the timer only starts when any square is toggled and once the game is completed, it resets the game logic along with the timer.
+        </li>
+    </ol>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="raphael-min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:200,400,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <audio id="lightswitch" src="sound/lightSwitch.wav" preload="auto"></audio>
+    <audio id="intro" src="sound/intro.wav" preload="auto"></audio>
+    <audio id="drone" src="sound/loDrone.mp3" preload="auto"></audio>
+    <audio id="song" src="sound/lightsout.mp3" preload="auto"></audio>
+    <audio id="smallClick0" src="sound/smallClick.wav" preload="auto"></audio>
+    <audio id="smallClick1" src="sound/smallClick.wav" preload="auto"></audio>
+    <audio id="smallClick2" src="sound/smallClick.wav" preload="auto"></audio>
+    <audio id="smallClick3" src="sound/smallClick.wav" preload="auto"></audio>
+    <audio id="smallClick4" src="sound/smallClick.wav" preload="auto"></audio> 
+
+    <div class="overlay">
+        <div class="loading-icon"><i class="fa fa-spinner fa-pulse"></i></div>
+
+        <div class="overlay-text">Lights Out</div>
+        <div class="overlay-subtext">(turn out all the lights)</div>
+		
+    </div>
+    
+    <div id="raphael-container"></div>
+    <div class="control volume-control"><i class="fa fa-volume-up"></i></div>
+
+    
+    <div class="control reset-control"><i id="reset-icon" class="fa fa-refresh"></i></div>
+    <div class="control music-control"><i class="fa fa-music"></i></div>
+	<div id="timer">00:00</div>
+
+    <a href="addendum.html" class="addendum"> Addendum </a>
+    
+	<script src="script.js"></script>
+
+	<footer class="footer">
+		<p>Last updated: <span id="lastModified"></span></p>
+	</footer>
+	<script type="text/javascript">
+		var x = document.lastModified;
+		document.getElementById('lastModified').textContent = x;
+	</script>
+</body>
+
+</html>
